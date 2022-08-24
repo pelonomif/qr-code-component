@@ -1,0 +1,27 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color:hsl(212, 45%, 89%);
+}
+
+@media only screen and (max-width: 1440px) {
+    .center{
+        display: flex;
+        margin-left: auto;
+        margin-right: auto;
+        border-radius: 30%
+        
+    }
+}
+.container{
+    background-color:hsl(0, 0%, 100%);
+    width: 50%;
+    margin-left: auto;
+    margin-right:auto;
+    border-radius: 30px;
+    margin-top: 20px;
+}
