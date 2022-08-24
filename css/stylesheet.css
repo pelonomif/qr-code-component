@@ -9,19 +9,56 @@ body{
 }
 
 @media only screen and (max-width: 1440px) {
-    .center{
-        display: flex;
+    .card{
+        display: block;
         margin-left: auto;
         margin-right: auto;
-        border-radius: 30%
+        border-radius: 10%;
+        padding: 5%;
+                
         
     }
 }
-.container{
+@media only screen and (max-width: 375px) {
+    .card{
+        display: flex;
+        margin-left: auto;
+        margin-right: auto;
+        border-radius: 10%;
+        padding: 5%;
+        
+        
+        
+    }
+}
+img{
+    width: 100%;
+}
+
+
+.card{
     background-color:hsl(0, 0%, 100%);
     width: 50%;
-    margin-left: auto;
-    margin-right:auto;
     border-radius: 30px;
     margin-top: 20px;
+    text-align: center;
+    padding: 5vw;
+    margin: 5% auto;
+    font-size: 2vw;
+    
+}
+img{
+    border-radius: 30px;
+}
+h2{
+    font-size:150%;
+    padding: 3vw;
+}
+p{
+    font-size: 100%;
+}
+footer{
+    margin: auto;
+    padding-bottom: 5em;
+
 }
