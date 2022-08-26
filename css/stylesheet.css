@@ -13,42 +13,8 @@ body{
     flex-direction: column;
 }
 
-@media only screen and (max-width: 1440px) {
-    .card{
-        display: block;
-        margin-left: auto;
-        margin-right: auto;
-        border-radius: 10px;
-        padding: 5%;
-                
-        
-    }
-}
-@media only screen and (max-width: 375px) {
-    .card{
-        display: flex;
-        margin-left: auto;
-        margin-right: auto;
-        border-radius: 10px;
-        padding: 5%; 
-        
-    }
-}
-
-.card{
-    background-color:hsl(0, 0%, 100%);
-    width: 50%;
-    border-radius: 10px;
-    margin-top: 20px;
-    text-align: center;
-    padding: 5vw;
-    margin: 20% auto;
-    font-size: 2vw;
-    
-}
-.qr-img{
-    border-radius: 10px;
-    width: 100%
+.container{
+    padding: 0%;
 }
 h1{
     font-size:150%;
@@ -70,4 +36,56 @@ footer{
     margin: auto;
     padding-bottom: 5em;
 
+}
+/*Media queries*/
+@media only screen and (max-width: 1440px) {
+    .card{
+        background-color:hsl(0, 0%, 100%);
+        display: inline-block;
+        width: 50%;
+        margin: 5em;
+        border-radius: 10px;
+        padding: 5%;           
+    }
+    .qr-img{
+        height: 20em;
+        width: 100%;
+        border-radius: 10px;
+    }
+    h1{
+        font-size: 25px;  
+        color: rgb(61, 56, 56)
+    }
+    p{
+        font-size: 15px;
+        color:  hsl(220, 15%, 55%)
+    }
+
+
+
+
+}
+
+@media only screen and (max-width: 375px) {
+    .card{
+        background-color:hsl(0, 0%, 100%);
+        display: block;
+        margin: 5em;
+        border-radius: 10px;
+        padding: 5%; 
+        font-size: 80%;
+        height: 100%;
+        
+    }
+    .qr-img{
+        height: 15em;
+        width: 100%;
+        border-radius: 10px;
+    }
+    h1{
+        font-size:100%;  
+    }
+    p{
+        font-size: 80%
+    }
 }
