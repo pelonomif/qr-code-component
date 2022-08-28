@@ -11,6 +11,20 @@ body{
     display: flex;
     align-items: center;
     flex-direction: column;
+    min-height: 100vh;
+}
+.card{
+        background-color:hsl(0, 0%, 100%);
+        display: inline-block;
+        width: 20rem;
+        border-radius: 10px;
+        
+}
+.qr-img{
+    width: 20rem;
+    padding: 10px;
+    border-radius: 20px;
+
 }
 
 .container{
@@ -18,10 +32,15 @@ body{
 }
 h1{
     font-size:150%;
-    padding: 3vw;
+    padding: 2rem;
+    margin: auto;
+    padding-top: 10px;
 }
 p{
-    font-size: 100%;
+    font-size: 120%;
+    margin-top: auto;
+    display: block;
+    
 }
 .attribution {
     font-size: 11px; text-align: center; 
@@ -30,61 +49,4 @@ p{
 
 .attribution a {
      color: hsl(228, 45%, 44%);
-     }
-
-footer{
-    margin: auto;
-    padding-bottom: 5em;
-
-}
-/*Media queries*/
-@media only screen and (max-width: 1440px) {
-    .card{
-        background-color:hsl(0, 0%, 100%);
-        display: inline-block;
-        width: 50%;
-        margin: 5em;
-        border-radius: 10px;
-        padding: 5%;           
     }
-    .qr-img{
-        height: 20em;
-        width: 100%;
-        border-radius: 10px;
-    }
-    h1{
-        font-size: 25px;  
-        color: rgb(61, 56, 56)
-    }
-    p{
-        font-size: 15px;
-        color:  hsl(220, 15%, 55%)
-    }
-
-
-
-
-}
-
-@media only screen and (max-width: 375px) {
-    .card{
-        background-color:hsl(0, 0%, 100%);
-        display: block;
-        margin: 5em;
-        border-radius: 10px;
-        padding: 5%; 
-        font-size: 80%;
-        
-    }
-    .qr-img{
-        height: 15em;
-        width: 100%;
-        border-radius: 10px;
-    }
-    h1{
-        font-size:100%;  
-    }
-    p{
-        font-size: 80%
-    }
-}
